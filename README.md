@@ -88,6 +88,7 @@ FROM
     )
    order by Seats_Won desc;
 ```
+
 5. **Total Seats Won by I.N.D.I.A. Alliance**
 
 
@@ -121,6 +122,7 @@ select sum(case
 else 0
 end) as INDIA_total_seats_won
 from partywise_results;
+
 ```
 
 6. **Seats Won by I.N.D.I.A. Alliance Parties**
