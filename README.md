@@ -250,7 +250,31 @@ where cr.constituency_name = 'MATHURA'
 order by cd.total_votes desc;
 ```
 
+### Findings
 
+- BJP-led NDA won the highest number of seats across all states.
+- Uttar Pradesh and Maharashtra had the most competitive constituencies.
+- In many seats, the vote margin between winner and runner-up was very small.
+- EVM votes made up the majority of total votes, but postal votes played a key role in close races.
+- Some parties performed strongly only in specific states (e.g., DMK in Tamil Nadu, TMC in West Bengal).
+- The I.N.D.I.A alliance did better in southern and eastern states.
+
+### Reports
+
+This project includes various SQL reports such as:
+
+- Total seats won by each party and alliance (NDA, I.N.D.I.A, OTHER)
+- State-wise party performance
+- Winning candidate details (name, party, votes, margin)
+- Runner-up vs winner comparison
+- EVM vs Postal vote breakdown per candidate
+- Top 10 candidates with highest votes
+- Seats won in each state by each alliance
+These reports help understand election trends using real data and SQL queries.
+
+### Conclusion
+
+This project shows how SQL can be used to explore and analyze real-world election data. By writing simple but powerful queries, we learned about party performance, vote patterns, and state-wise results. It’s a good example of how data analysis helps in understanding large datasets like national election results.
 
 
 
