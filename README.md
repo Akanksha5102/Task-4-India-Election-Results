@@ -88,13 +88,14 @@ FROM
     )
    order by Seats_Won desc;
 ```
-
-
 5. **Total Seats Won by I.N.D.I.A. Alliance**
 
- ```sql
+
+```sql
+
 select sum(case
- when party in (
+ when party in
+(
 'Indian National Congress - INC',
                 'Aam Aadmi Party - AAAP',
                 'All India Trinamool Congress - AITC',
@@ -153,7 +154,7 @@ from partywise_results;
    order by total_seats_won desc;
 ```
 
-7. **Add new column field in table partywise_results to get the Party Alliance as NDA, I.N.D.I.A and OTHER**
+7. **Add new column field in table partywise_results to get the Party Alliance as NDA, I.N.D.I.A and OTHER.**
 
 
 
